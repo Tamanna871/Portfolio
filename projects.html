@@ -15,7 +15,7 @@
       height: 100%;
       margin: 0;
       overflow-x: hidden;
- 
+
     }
 
     .card-img-top {
@@ -106,7 +106,7 @@
             <a class="nav-link text-white ln" href="about.html">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white ln " href="contact.html">Contact</a>
+            <a class="nav-link text-white ln" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -114,36 +114,69 @@
   </nav>
 
   <div class="main-content container-fluid d-flex flex-column align-items-center justify-content-center">
-    <h1 style="font-family: Arial, Helvetica, sans-serif; font-size:25px; color: white; margin-top: 20px;"><b>My
-        Projects</b></h1>
 
+    <h1 style="font-family: Arial, Helvetica, sans-serif; font-size:25px; color: white; margin-top: 20px;">
+      <b>My Projects</b>
+    </h1>
 
-
+    <!-- First Row -->
     <div class="row" style="margin-top: 60px;">
 
+      <!-- Playwright Automation Testing Project -->
       <div class="col d-flex" style="margin-left: 20px; margin-right: 20px;">
         <div class="card flex-fill" style="width:350px">
-          <img class="card-img-top" src="image/api_testing_project.png" alt="Card image" style="width:100%">
+          <img class="card-img-top" src="image/playwright_project.png" alt="Playwright Automation Testing Project"
+            style="width:100%">
           <div class="card-body">
             <div class="b">
-              <h4 class="card-title" style="font-size: 18px;">API Testing with Postman & Newman</h4>
-              <p class="card-text">Tested a mock student management API using Postman with CRUD operations, detailed assertions, data-driven testing, and chained requests. Automated runs via Newman with HTML reports, published docs using Postman Documenter, and set up a mock API with json-server.</p>
+              <h4 class="card-title" style="font-size: 18px;">
+                SauceDemo Login Test Automation with Playwright
+              </h4>
+              <p class="card-text">
+                Developed 22 Playwright UI tests using POM, custom fixtures, and data-driven testing. Configured desktop and mobile browser projects and integrated GitHub Actions with failure reports for debugging.
+              </p>
             </div>
-            <a href="https://github.com/Tamanna871/API_Testing_Project.git"
-              class="btn btn-primary bg-dark" style="margin-top: 30px;">See Project</a>
+            <a href="https://github.com/Tamanna871/saucedemo-login-tests" class="btn btn-primary bg-dark"
+              style="margin-top: 30px;" target="_blank" rel="noopener noreferrer">See Project</a>
           </div>
         </div>
       </div>
 
+      <!-- API Testing Project -->
       <div class="col d-flex" style="margin-left: 20px; margin-right: 20px;">
         <div class="card flex-fill" style="width:350px">
-          <img class="card-img-top" src="image/jiraproject.png" alt="Card image" style="width:100%">
+          <img class="card-img-top" src="image/api_testing_project.png" alt="API Testing Project" style="width:100%">
           <div class="card-body">
             <div class="b">
-              <h4 class="card-title" style="font-size: 18px;">Scrum Workflow Implementation Using Jira </h4>
-              <p class="card-text">Managed Scrum activities in Jira, including project creation, backlog definition, and
-                creation of epics and user stories with story points. Led sprints by adding user stories, creating
-                sub-tasks, and demonstrating the sprint lifecycle through Scrum board states.</p>
+              <h4 class="card-title" style="font-size: 18px;">
+                API Testing with Postman &amp; Newman
+              </h4>
+              <p class="card-text">
+                Created a mock student API using json-server and tested it in Postman through CRUD operations, detailed assertions, data-driven testing, and chained requests. Automated test execution using Newman with HTML reports and published API documentation using Postman Documenter.
+              </p>
+            </div>
+            <a href="https://github.com/Tamanna871/API_Testing_Project.git" class="btn btn-primary bg-dark"
+              style="margin-top: 30px;">See Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jira Project -->
+      <div class="col d-flex" style="margin-left: 20px; margin-right: 20px;">
+        <div class="card flex-fill" style="width:350px">
+          <img class="card-img-top" src="image/jiraproject.png" alt="Jira Scrum Workflow Project" style="width:100%">
+          <div class="card-body">
+            <div class="b">
+              <h4 class="card-title" style="font-size: 18px;">
+                Scrum Workflow Implementation Using Jira
+              </h4>
+              <p class="card-text">
+                Managed Scrum activities in Jira, including project creation,
+                backlog definition, and creation of epics and user stories
+                with story points. Led sprints by adding user stories,
+                creating sub-tasks, and demonstrating the sprint lifecycle
+                through Scrum board states.
+              </p>
             </div>
             <a href="https://drive.google.com/file/d/1314_Eoukv9woNq_2YF_c3pl1a1qgoE6v/view"
               class="btn btn-primary bg-dark" style="margin-top: 30px;">See Video</a>
@@ -151,18 +184,27 @@
         </div>
       </div>
 
+    </div>
 
+    <!-- Second Row -->
+    <div class="row" style="margin-top: 20px;">
+
+      <!-- Manual Testing Project -->
       <div class="col d-flex" style="margin-left: 20px; margin-right: 20px;">
         <div class="card flex-fill" style="width:350px">
-          <img class="card-img-top" src="image/manualtesting.png" alt="Card image" style="width:100%">
+          <img class="card-img-top" src="image/manualtesting.png" alt="Manual Testing Project" style="width:100%">
           <div class="card-body">
             <div class="b">
               <h4 class="card-title">Manual Testing Project</h4>
-              <p class="card-text">Created test scenarios for both Admin and Student panels of <a
-                  href="https://github.com/Tamanna871/student_enrollment" style="color: black; text-decoration: none;">
-                  Student Enrollment Management System </a> Software, covering all functionalities, and developed
-                detailed test cases, RTM, test execution results, and bug reports for the registration functionality of
-                the admin panel.</p>
+              <p class="card-text">
+                Created test scenarios for both Admin and Student panels of
+                <a href="https://github.com/Tamanna871/student_enrollment" style="color: black; text-decoration: none;">
+                  Student Enrollment Management System
+                </a>
+                Software, covering all functionalities, and developed
+                detailed test cases, RTM, test execution results, and bug
+                reports for the registration functionality of the admin panel.
+              </p>
             </div>
             <a href="https://drive.google.com/drive/u/1/folders/1-OFSZnI3uTa7JWkIcBcz_02NCHPkchdm"
               class="btn btn-primary bg-dark" style="margin-top: 30px;">See Project</a>
@@ -170,131 +212,150 @@
         </div>
       </div>
 
-
-
-    </div>
-
-
-    <div class="row" style="margin-top: 20px;">
-
+      <!-- Student Enrollment Management System -->
       <div class="col d-flex" style="margin-left: 20px; margin-right: 20px;">
         <div class="card flex-fill" style="width:350px">
-          <img class="card-img-top" src="image/Studentenrollment.png" alt="Card image" style="width:100%">
+          <img class="card-img-top" src="image/Studentenrollment.png" alt="Student Enrollment Management System"
+            style="width:100%">
           <div class="card-body">
             <div class="b">
               <h4 class="card-title">Student Enrollment Management System</h4>
-              <p class="card-text">Created a Student Enrollment Management System using HTML, CSS, PHP, SQL, and MySQL,
-                leveraging the XAMPP server to manage backend operations and ensure seamless database connectivity.</p>
+              <p class="card-text">
+                Created a Student Enrollment Management System using HTML,
+                CSS, PHP, SQL, and MySQL, leveraging the XAMPP server to
+                manage backend operations and ensure seamless database
+                connectivity.
+              </p>
             </div>
             <a href="https://github.com/Tamanna871/student_enrollment" class="btn btn-primary bg-dark"
               style="margin-top: 30px;">See Website</a>
-
           </div>
         </div>
       </div>
 
+      <!-- Store Report Generator -->
       <div class="col d-flex" style="margin-left: 20px; margin-right: 20px;">
         <div class="card flex-fill" style="width:350px">
-          <img class="card-img-top" src="image/storereport.png" alt="Card image" style="width:100%">
+          <img class="card-img-top" src="image/storereport.png" alt="Store Report Generator App" style="width:100%">
           <div class="card-body">
             <div class="b">
-              <h4 class="card-title" style="font-size: 18px;">Store Report Generator App </h4>
-              <p class="card-text">Developed a full-stack application using HTML, CSS, JavaScript, React, Node.js, and MySQL, utilizing an API to fetch data and store it in a MySQL database. Additionally, implemented a feature to generate reports listing top purchasers by total amount spent.</p>
+              <h4 class="card-title" style="font-size: 18px;">
+                Store Report Generator App
+              </h4>
+              <p class="card-text">
+                Developed a full-stack application using HTML, CSS,
+                JavaScript, React, Node.js, and MySQL, utilizing an API to
+                fetch data and store it in a MySQL database. Additionally,
+                implemented a feature to generate reports listing top
+                purchasers by total amount spent.
+              </p>
             </div>
-            <a href="https://github.com/Tamanna871/store-report-app"
-              class="btn btn-primary bg-dark" style="margin-top: 30px;">See Project</a>
+            <a href="https://github.com/Tamanna871/store-report-app" class="btn btn-primary bg-dark"
+              style="margin-top: 30px;">See Project</a>
           </div>
         </div>
       </div>
 
+    </div>
 
+    <!-- Third Row -->
+    <div class="row" style="margin-top: 20px;">
+
+      <!-- Amazon Clone -->
       <div class="col d-flex" style="margin-left: 20px; margin-right: 20px;">
         <div class="card flex-fill" style="width:350px">
-          <img class="card-img-top" src="image/amclopic.JPG" alt="Card image" style="width:100%">
+          <img class="card-img-top" src="image/amclopic.JPG" alt="Amazon Clone" style="width:100%">
           <div class="card-body">
             <div class="b">
               <h4 class="card-title">Amazon clone</h4>
-              <p class="card-text">Developed a homepage for an Amazon clone using HTML, CSS, and JavaScript
-                focusing on replicating the visual style of the platform.</p>
+              <p class="card-text">
+                Developed a homepage for an Amazon clone using HTML, CSS,
+                and JavaScript focusing on replicating the visual style
+                of the platform.
+              </p>
             </div>
-            <a href="amazon_clone/index.html"
-              class="btn btn-primary bg-dark" style="margin-top: 30px;">See Website</a>
+            <a href="amazon_clone/index.html" class="btn btn-primary bg-dark" style="margin-top: 30px;">See Website</a>
           </div>
         </div>
       </div>
 
-
-
-
-    </div>
-
-    <div class="row" style="margin-top: 20px;">
-
+      <!-- Age Calculator -->
       <div class="col d-flex" style="margin-left: 20px; margin-right: 20px;">
         <div class="card flex-fill" style="width:350px">
-          <img class="card-img-top" src="image/agecal.JPG" alt="Card image" style="width:100%">
+          <img class="card-img-top" src="image/agecal.JPG" alt="Age Calculator" style="width:100%">
           <div class="card-body">
             <div class="b">
               <h4 class="card-title" style="font-size: 18px;">Age Calculator</h4>
-              <p class="card-text">Built an age calculator application with HTML, CSS, and JavaScript, showcasing
-                frontend development skills and practical problem-solving abilities.</p>
+              <p class="card-text">
+                Built an age calculator application with HTML, CSS, and
+                JavaScript, showcasing frontend development skills and
+                practical problem-solving abilities.
+              </p>
             </div>
-            <a href="age calculator/index.html"
-              class="btn btn-primary bg-dark" style="margin-top: 30px;">See Website</a>
+            <a href="age calculator/index.html" class="btn btn-primary bg-dark" style="margin-top: 30px;">See
+              Website</a>
           </div>
         </div>
       </div>
 
+      <!-- Calculator -->
       <div class="col d-flex" style="margin-left: 20px; margin-right: 20px;">
         <div class="card flex-fill" style="width:350px">
-          <img class="card-img-top" src="image/calc.png" alt="Card image" style="width:100%">
+          <img class="card-img-top" src="image/calc.png" alt="Calculator" style="width:100%">
           <div class="card-body">
             <div class="b">
-              <h4 class="card-title" style="font-size: 18px;">Calculator</h4>
-              <p class="card-text">Created a simple calculator application using HTML, CSS, and JavaScript.
-                Demonstrates proficiency in frontend development and logical problem-solving.</p>
+              <h4 class="card-title">Calculator</h4>
+              <p class="card-text">
+                Created a simple calculator application using HTML, CSS,
+                and JavaScript. Demonstrates proficiency in frontend
+                development and logical problem-solving.
+              </p>
             </div>
-            <a href="calculator/index.html"
-              class="btn btn-primary bg-dark" style="margin-top: 30px;">See Website</a>
+            <a href="calculator/index.html" class="btn btn-primary bg-dark" style="margin-top: 30px;">See Website</a>
           </div>
         </div>
       </div>
-
-
-      <div class="col d-flex" style="margin-left: 20px; margin-right: 20px;">
-        <div class="card flex-fill" style="width:350px">
-          <img class="card-img-top" src="image/portfolionew.png" alt="Card image" style="width:100%">
-          <div class="card-body">
-            <div class="b">
-              <h4 class="card-title">Portfolio Website</h4>
-              <p class="card-text">Designed and developed a personal portfolio website using HTML, CSS, Bootstrap,
-                and JavaScript, featuring home, projects, about me, and contact pages.</p>
-            </div>
-            <a href="index.html"
-              class="btn btn-primary bg-dark" style="margin-top: 30px;">See Website</a>
-          </div>
-        </div>
-      </div>
-
-
 
     </div>
 
-
+    <!-- Fourth Row -->
     <div class="row" style="margin-top: 20px; margin-bottom: 60px;">
 
-      
-
+      <!-- Portfolio Website -->
       <div class="col d-flex" style="margin-left: 20px; margin-right: 20px;">
         <div class="card flex-fill" style="width:350px">
-          <img class="card-img-top" src="image/handdigit.JPG" alt="Card image" style="width:100%">
+          <img class="card-img-top" src="image/portfolionew.png" alt="Portfolio Website" style="width:100%">
           <div class="card-body">
             <div class="b">
-              <h4 class="card-title" style="font-size: 20px;">Handwritten Digit Recognition by Using Machine Learning &
-                Deep Learning</h4>
-              <p class="card-text"><span class="cr">Developed a Handwritten digit recognition system using CNN and
-                  OpenCV,
-                  achieving 99% accuracy on MNIST and real-world digit images.</span></p>
+              <h4 class="card-title">Portfolio Website</h4>
+              <p class="card-text">
+                Designed and developed a personal portfolio website using
+                HTML, CSS, Bootstrap, and JavaScript, featuring home,
+                projects, about me, and contact pages.
+              </p>
+            </div>
+            <a href="index.html" class="btn btn-primary bg-dark" style="margin-top: 30px;">See Website</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Handwritten Digit Recognition -->
+      <div class="col d-flex" style="margin-left: 20px; margin-right: 20px;">
+        <div class="card flex-fill" style="width:350px">
+          <img class="card-img-top" src="image/handdigit.JPG" alt="Handwritten Digit Recognition" style="width:100%">
+          <div class="card-body">
+            <div class="b">
+              <h4 class="card-title" style="font-size: 20px;">
+                Handwritten Digit Recognition by Using Machine Learning &amp;
+                Deep Learning
+              </h4>
+              <p class="card-text">
+                <span class="cr">
+                  Developed a Handwritten digit recognition system using CNN
+                  and OpenCV, achieving 99% accuracy on MNIST and real-world
+                  digit images.
+                </span>
+              </p>
             </div>
             <a href="https://colab.research.google.com/drive/1h85aJuK2OXFbBdVwM3tF3LI5h7ywfcoR?usp=sharing"
               class="btn btn-primary bg-dark">See Project</a>
@@ -302,27 +363,19 @@
         </div>
       </div>
 
-
-
-
     </div>
-
-
-
-
 
   </div>
 
-
-
-
-
-
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
     <div class="container-fluid justify-content-center">
-      <a class="nav-link text-white text-center" href="index.html">Created by Tamanna Kawser Chowdhury</a>
+      <a class="nav-link text-white text-center" href="index.html">
+        Created by Tamanna Kawser Chowdhury
+      </a>
     </div>
   </nav>
+
 </body>
+
 
 </html>

@@ -37,6 +37,7 @@
       background: #ffffff;
       font-family: Inter, "Segoe UI", Arial, sans-serif;
       line-height: 1.65;
+      padding-top: 56px;
       padding-bottom: 58px;
     }
 
@@ -507,6 +508,43 @@
       line-height: 1.5;
       font-weight: 400;
     }
+
+    @media (max-width: 575px) {
+
+      .contact-item:nth-child(2),
+      .contact-item:nth-child(4) {
+        justify-content: flex-start;
+        text-align: left;
+      }
+
+      .contact-item:nth-child(2) span,
+      .contact-item:nth-child(4) span {
+        text-align: left;
+      }
+    }
+
+    /* Eye-catching CV button */
+    .btn-resume {
+      background: #1f3a5f;
+      border-radius: 8px;
+      padding: .8rem 1.5rem;
+      box-shadow: 0 4px 12px rgba(31, 58, 95, .25);
+    }
+
+    .btn-resume:hover {
+      background: #162b47;
+      box-shadow: 0 6px 16px rgba(31, 58, 95, .35);
+    }
+
+    /* Name as a heading, not a button */
+    .profile-name {
+      background: transparent;
+      border: 0;
+      padding: 0;
+      color: var(--ink);
+      font-size: 1.35rem;
+    }
+
   </style>
 </head>
 
@@ -531,7 +569,11 @@
   <header class="about-hero">
     <div class="hero-inner">
       <span class="eyebrow">About me</span>
-      <p>I am Tamanna Kawser Chowdhury, a Computer Science and Engineering graduate. I previously worked as an SQA and Documentation Trainee at Premier University, where I performed manual functional and API testing, identified and reported software defects, and collaborated with developers to improve application functionality and user experience. I am currently developing my test automation skills by learning Playwright with JavaScript to grow further in the field of software testing.</p>
+      <p>I am Tamanna Kawser Chowdhury, a Computer Science and Engineering graduate. I previously worked as an SQA and
+        Documentation Trainee at Premier University, where I performed manual functional and API testing, identified and
+        reported software defects, and collaborated with developers to improve application functionality and user
+        experience. I am currently developing my test automation skills by learning Playwright with JavaScript to grow
+        further in the field of software testing.</p>
     </div>
   </header>
 
